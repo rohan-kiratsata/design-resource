@@ -5,6 +5,7 @@ import React from 'react';
 //     return [item.category];
 // })
 import * as FontAwesome from 'react-icons/fa';
+import { IoColorPalette } from "react-icons/io5";
 
 
 
@@ -15,42 +16,42 @@ export const SideBarData = [
         path: '/all',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
-        icon: <FontAwesome.FaRegNewspaper/>
+        icon: <FontAwesome.FaStar />
     },
     {
         title: 'Blogs and News',
         path: '/blogs',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
-        icon: <FontAwesome.FaRegNewspaper/>
+        icon: <FontAwesome.FaRegNewspaper />
     },
     {
         title: 'Color Tools',
         path: '/colorTools',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
-        icon: <FontAwesome.FaRegNewspaper/>
+        icon: <IoColorPalette />
     },
     {
         title: 'Design Systems',
         path: '/designSys',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
-        icon: <FontAwesome.FaRegNewspaper/>
+        icon: <FontAwesome.FaRegNewspaper />
     },
     {
         title: 'Design Tools',
         path: '/designTools',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
-        icon: ''
+        icon: <FontAwesome.FaPencilRuler />
     },
     {
         title: 'Developer Tools',
         path: '/devTools',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
-        icon: ''
+        icon: <FontAwesome.FaCode />
     },
     {
         title: 'Icons',
@@ -85,7 +86,7 @@ export const SideBarData = [
         path: '/stockMedia',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
-        icon: <FontAwesome.FaRegNewspaper/>
+        icon: <FontAwesome.FaRegNewspaper />
     },
     {
         title: 'Typography',
