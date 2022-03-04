@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="h-auto flex justify-start items-center py-4">
+            <div className="h-auto flex justify-start items-center py-4 sm:sticky sm:top-0 bg-white shadow-lg">
 
                 {/* Hamburger Menu Icon Link*/}
                 <Link to="#" className="menu-bars text-3xl">
