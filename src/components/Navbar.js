@@ -27,7 +27,7 @@ export default function Navbar() {
                 {/* Top Header  */}
                 <div className="container mx-6 flex flex-col md:flex-row sm:items-center">
                     {/*  */}
-                    <Link to="#" className="text-2xl md:text-3xl font-bold">
+                    <Link to="/" className="text-2xl md:text-3xl font-bold">
                         <span>Resource Ocean</span>
                     </Link>
 
@@ -37,7 +37,7 @@ export default function Navbar() {
                             Newsletter
                         </button>
                         <button className="btn-primary">
-                            Suggest A Tool
+                            Suggest Resource
                         </button>
                     </div>
                 </div>
@@ -46,16 +46,20 @@ export default function Navbar() {
             {/* Sidebar */}
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className="nav-menu-items">
-                    <li className="navbar-toggle px-4 -mt-4 mb-4">
+                    <li className="navbar-toggle px-4 -mt-4" onClick={showSidebar}>
                         <Link to="#" className="menu-bars">
                             <AiOutlineClose />
                         </Link>
                     </li>
-                    {SideBarData.map((ele, index) => {
+                    {/* Categories Heading */}
+                    {/* <div className="mt-4 p-2 text-xl border-t-2 text-center text-blue-100">
+                        <p>Categories</p>
+                    </div> */}
+                    {SideBarData.map((ele) => {
                         return (
-                            <div className="w-full hover:bg-blue-400 rounded my-1 duration-100">
-                                <li key={index} className={ele.clsName}>
-                                    <Link to={ele.path} className="">
+                            <div className="w-full hover:bg-blue-400 rounded my-1 duration-100" key={ele.id}>
+                                <li className={ele.clsName}>
+                                    <Link to={ele.path} className="" onClick={showSidebar}>
                                         <span className="nav-icon">{ele.icon}</span>
                                         <span className="nav-title">{ele.title}</span>
                                     </Link>
