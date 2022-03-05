@@ -1,0 +1,16 @@
+.card {
+  @apply w-96 h-60 flex-col rounded-3xl
+        flex bg-slate-200 p-8;
+}
+.card-heading {
+  @apply bg-red-500 flex w-full justify-between h-fit items-center;
+}
+.card-title {
+  @apply font-bold text-3xl;
+}
+.card-icon {
+  @apply w-14;
+}
+.card-category {
+  @apply p-1 bg-red-800 w-fit my-3 rounded-md;
+}

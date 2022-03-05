@@ -11,7 +11,7 @@
   color: #fff;
   position: fixed;
   top: 0;
-  padding: 0 10px;
+  padding: 0 8px;
   left: -100%;
   transition: 500ms;
   overflow-y: auto;
@@ -31,9 +31,12 @@
 .nav-icon {
   display: flex;
   margin: 0 10px;
-  font-size: 24px;
+  font-size: 20px;
   align-items: center;
   justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3px;
+  border-radius: 10%;
 }
 .nav-text a {
   text-decoration: none;
@@ -41,4 +44,7 @@
   font-size: 18px;
   height: 100%;
   display: flex;
+}
+.nav-active {
+  @apply bg-white;
 }

@@ -4,6 +4,9 @@ module.exports = {
     extend: {},
     screen: {
       'xtra-sm': '512px'
+    },
+    fontFamily: {
+      'FiraSans': ['Fira Sans', 'sans-serif']
     }
   },
   plugins: [],

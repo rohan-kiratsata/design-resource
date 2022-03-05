@@ -9,16 +9,30 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 // JSON Data
 import { SideBarData } from './SidebarData';
 
+var nav = document.getElementById('nav');
+
+window.onscroll = () => {
+    if (window.scrollY >= 100) {
+        nav.classList.add('nav-active');
+    }
+    else {
+        nav.classList.remove('nav-active');
+    }
+};
+
 export default function Navbar() {
 
     const [sidebar, setSidebar] = useState(false);
 
     const showSidebar = () => setSidebar(!sidebar);
 
+
+
     return (
         <>
-            <div className="h-auto flex justify-start items-center py-4 sm:sticky sm:top-0 bg-white shadow-lg">
+            <div className="h-auto flex justify-start items-center py-4 sm:sticky sm:top-0 bg-white transition-all duration-800 shadow-lg" id="">
 
+                {/* Shadow for above Header shadow-lg */}
                 {/* Hamburger Menu Icon Link*/}
                 <Link to="#" className="menu-bars text-3xl">
                     <GiHamburgerMenu onClick={showSidebar} />
@@ -46,11 +60,11 @@ export default function Navbar() {
             {/* Sidebar */}
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className="nav-menu-items">
-                    <li className="navbar-toggle px-4 -mt-4" onClick={showSidebar}>
+                    <div className="navbar-toggle px-4 -mt-4" onClick={showSidebar}>
                         <Link to="#" className="menu-bars">
                             <AiOutlineClose />
                         </Link>
-                    </li>
+                    </div>
                     {/* Categories Heading */}
                     {/* <div className="mt-4 p-2 text-xl border-t-2 text-center text-blue-100">
                         <p>Categories</p>

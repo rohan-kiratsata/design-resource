@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 
 export const resources = [
@@ -15,6 +15,14 @@ export const resources = [
         "productId": 2,
         "productName": "Webflow",
         "productDescription": "Website Builder",
+        "productLink": "https://figma.com/",
+        "productIcon": "https://picusm.photos/200"
+    },
+    {
+        "category": "Illustrations",
+        "productId": 3,
+        "productName": "XYZ Illustrations",
+        "productDescription": "Free Illustrations",
         "productLink": "https://figma.com/",
         "productIcon": "https://picusm.photos/200"
     }
