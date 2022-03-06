@@ -46,7 +46,7 @@ export default function Navbar() {
                     </Link>
 
                     {/* Buttons */}
-                    <div className="md:ml-auto flex flex-wrap my-2">
+                    <div className="sm:ml-auto flex flex-wrap my-2 sm:mx-3">
                         <button className="btn-primary">
                             Newsletter
                         </button>

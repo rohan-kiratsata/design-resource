@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from '@lyket/react';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider apiKey="pt_b2053ae629938a6616652ff15a20c6">
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

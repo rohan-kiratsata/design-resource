@@ -1,7 +1,7 @@
 import React from 'react';
 // import resources from './.../resourcesData.js'
 // import resources from 'src/components/resourcesData.js'
-import { resources } from './resourcesData';
+// import { resources } from './resourcesData';
 
 export default function Blogs() {
     return (
@@ -15,11 +15,11 @@ export default function Blogs() {
                 */}
                 <div>
                     {
-                        resources.map((ele) => {
-                            return (
-                                <p>{ele.productId}</p>
-                            )
-                        })
+                        // resources.map((ele) => {
+                        //     return (
+                        //         <p>{ele.productId}</p>
+                        //     )
+                        // })
                     }
                 </div>
             </div>

@@ -1,7 +1,7 @@
-// import React from 'react';
+import React from 'react';
 
 
-export const resources = [
+export const Resources = [
     {
         "category": "Design Tools",
         "productId": 1,
@@ -25,5 +25,30 @@ export const resources = [
         "productDescription": "Free Illustrations",
         "productLink": "https://figma.com/",
         "productIcon": "https://picusm.photos/200"
+    },
+    {
+        "category": "Illustrations",
+        "productId": 3,
+        "productName": "XYZ Illustrations",
+        "productDescription": "Free Illustrations",
+        "productLink": "https://figma.com/",
+        "productIcon": "https://picusm.photos/200"
+    },
+    {
+        "category": "Illustrations",
+        "productId": 3,
+        "productName": "XYZ Illustrations",
+        "productDescription": "Free Illustrations",
+        "productLink": "https://figma.com/",
+        "productIcon": "https://picusm.photos/200"
+    },
+    {
+        "category": "Illustrations",
+        "productId": 3,
+        "productName": "XYZ Illustrations",
+        "productDescription": "Free Illustrations",
+        "productLink": "https://figma.com/",
+        "productIcon": "https://picusm.photos/200"
     }
+    ,
 ]

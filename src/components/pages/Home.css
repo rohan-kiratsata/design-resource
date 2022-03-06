@@ -1,9 +1,23 @@
 .card {
-  @apply w-96 h-60 flex-col rounded-3xl
-        flex bg-slate-200 p-8;
+  @apply flex-col rounded-3xl
+        flex p-8 bg-white m-5;
+
+  width: 384px;
+  height: 288px;
+
+  /* background: #fee; */
+  transition: all ease-in-out 0.2s;
+
+  /* box-shadow: 1px 1px 6px #ccc; */
+  border: 2px solid #ccc;
+}
+.card:hover {
+  transition: all ease-in-out 0.2s;
+  box-shadow: 0px 0px 6px 2px rgba(196, 213, 255);
+  @apply border-blue-500;
 }
 .card-heading {
-  @apply bg-red-500 flex w-full justify-between h-fit items-center;
+  @apply flex w-full justify-between h-fit items-center;
 }
 .card-title {
   @apply font-bold text-3xl;
@@ -12,5 +26,18 @@
   @apply w-14;
 }
 .card-category {
-  @apply p-1 bg-red-800 w-fit my-3 rounded-md;
+  @apply p-1 w-fit my-3 rounded-md bg-slate-100;
+}
+.card-description {
+}
+.card-footer {
+  @apply flex justify-between text-base mt-3;
+}
+.like-btn {
+  @apply flex p-1 items-center rounded-sm;
+}
+.card-favTag {
+  @apply p-1 flex items-center
+  rounded-sm border-2 border-yellow-400
+  text-yellow-400;
 }
