@@ -3,8 +3,8 @@ import { Resources } from '../data/ResourcesData';
 import { FaLink } from 'react-icons/fa';
 import { Provider, LikeButton } from "@lyket/react";
 
-var category = "Blogs";
-export default function Blogs() {
+var category = "Color Tools";
+export default function ColorTools() {
     return (
         <>
             <div className="p-5 text-center">

@@ -40,7 +40,7 @@ export const SideBarData = [
     {
         id: 4,
         title: 'Design Systems',
-        path: '/designSys',
+        path: '/designSystems',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
         icon: <BsGrid1X2Fill />
@@ -56,7 +56,7 @@ export const SideBarData = [
     {
         id: 6,
         title: 'Developer Tools',
-        path: '/devTools',
+        path: '/developerTools',
         clsName: 'nav-text',
         HoverClsName: 'hover:text-yellow-500',
         icon: <FontAwesome.FaCode />

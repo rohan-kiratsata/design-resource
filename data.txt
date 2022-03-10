@@ -1,0 +1,38 @@
+Categories:
+
+1- All
+2- Blogs and News
+3- Color Tools
+4- Design Systems
+5- Design Tools
+6- Developer Tools
+7- Icons
+8- Illustration
+9- Inspiration
+10- Learn Designing
+11- Stock Photos
+12- Typography
+13- Wireframing Tools
+14- YouTube Channel
+
+<div className="card">
+                            <div className="card-heading">
+                                <a className="card-title" href="">Figma <FaLink className="text-sm" /></a>
+                                <img src={dummy} alt="" width="50px" className="card-icon" />
+                            </div>
+                            <div className="card-category">
+                                <p>Dev Tools</p>
+                            </div>
+                            <div className="card-description">
+                                <p className="font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, quaerat..</p>
+                            </div>
+                            <div className="card-footer">
+                                <Provider apiKey="acc0dbccce8e557db5ebbe6d605aaa">
+                                    <LikeButton
+                                        namespace="my-blog-post"
+                                        id="how-to-beat-me-at-chess"
+                                        component={LikeButton.templates.Twitter}
+                                    />
+                                </Provider>
+                            </div>
+                        </div>

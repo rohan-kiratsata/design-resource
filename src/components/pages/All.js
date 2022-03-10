@@ -3,15 +3,14 @@ import { Resources } from '../data/ResourcesData';
 import { FaLink } from 'react-icons/fa';
 import { Provider, LikeButton } from "@lyket/react";
 
-var category = "Blogs";
-export default function Blogs() {
+export default function All() {
     return (
         <>
             <div className="p-5 text-center">
-                <p className="text-xl md:text-2xl font-md font-FiraSans text-gray-500">BLOGS AND NEWS</p>
+                <p className="text-xl md:text-2xl font-md font-FiraSans text-gray-500">ALL RESOURCES</p>
             </div>
             <div className="card-container">
-                {Resources.filter(obj => obj.category == category).map((ele) => {
+                {Resources.sort((a, b) => (a.productName > b.productName) ? 1 : ((b.productName > a.productName) ? -1 : 0)).map((ele) => {
                     return (
                         <div className="card" key={ele.productId}>
                             <div className="card-heading">

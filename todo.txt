@@ -1,17 +1,6 @@
-Categories:
-
-1- All
-2- Blogs and News
-3- Color Tools
-4- Design Systems
-5- Design Tools
-6- Developer Tools
-7- Icons
-8- Illustration
-9- Inspiration
-10- Learn Designing
-11- Stock Photos
-12- Typography
-13- Wireframing Tools
-14- YouTube Channel
-
+[ ] Add resources
+[ ] Create a logo
+[ ] Add category pages
+[ ] Setup Newsletter
+[ ] "Suggest Resource" btn setup
+[ ] 

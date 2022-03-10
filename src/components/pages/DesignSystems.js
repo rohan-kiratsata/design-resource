@@ -3,12 +3,12 @@ import { Resources } from '../data/ResourcesData';
 import { FaLink } from 'react-icons/fa';
 import { Provider, LikeButton } from "@lyket/react";
 
-var category = "Blogs";
-export default function Blogs() {
+var category = "Design Systems";
+export default function DesignSystems() {
     return (
         <>
             <div className="p-5 text-center">
-                <p className="text-xl md:text-2xl font-md font-FiraSans text-gray-500">BLOGS AND NEWS</p>
+                <p className="text-xl md:text-2xl font-md font-FiraSans text-gray-500">DESIGN SYSTEMS</p>
             </div>
             <div className="card-container">
                 {Resources.filter(obj => obj.category == category).map((ele) => {
